@@ -1,13 +1,12 @@
 import { NavLink } from 'react-router-dom';
-// import unlockLogo from '../../assets/image/Logo/icon-unlock.svg';
 import style from './Navigation.module.scss';
-// import Logo from '../Logo/Logo';
+import Logo from '../Logo/Logo';
 
 export function Navigation() {
   return (
     <nav className={style.nav}>
       <section>
-        {/* <Logo/> */}
+        <Logo/>
         <ul>
           <li>
           <NavLink
@@ -55,16 +54,7 @@ export function Navigation() {
               Login
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to='/login'
-            >
-               {/* <div>
-        <img className={style.Unlocklogo} src={unlockLogo} alt='unlock' />
-        </div> */}
-              {/* Login */}
-            </NavLink>
-          </li>
+      
         </ul>
       </section>
     </nav>
