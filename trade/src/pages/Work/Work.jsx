@@ -1,6 +1,6 @@
 
 import React from 'react';
-// import style from './Frontpage.module.scss';
+// import style from './WorkPage.module.scss';
 
 export const WorkPage = () => {
     return (

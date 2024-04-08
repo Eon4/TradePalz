@@ -1,5 +1,5 @@
 
-// import ScrollToTop from "../../components/ScrollToTop/ScrollToTop ";
+// import ScrollToTop from "../../components/ScrollToTop/ScrollToRop";
 import style from './Footer.module.scss'
 // import Logo from '../Logo/Logo';
 
